@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0,1,2" >
+  
+    <TableRow 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+    	<TextView 
+        	android:id="@+id/personName"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textAppearance="?android:attr/textAppearanceLarge"
+        	android:textColor="?android:textColorPrimary"
+        	android:paddingRight="30dp"/>
+    	<TextView 
+            android:id="@+id/personAgeHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="30dp"
+            android:text="@string/personAgeHeader"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="?android:textColorPrimary" />
+    	<TextView 
+            android:id="@+id/personRemainingHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/personRemainingHeader"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="?android:textColorPrimary" />
+    	
+    </TableRow>
+    <TableRow 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView 
+       		android:id="@+id/personDate"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:paddingRight="30dp"
+        	android:textAppearance="?android:attr/textAppearanceMedium"
+        	android:textColor="?android:textColorSecondary"/>
+        <TextView 
+            android:id="@+id/personAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="30dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="?android:textColorSecondary" />
+        <TextView 
+            android:id="@+id/personRemaining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="?android:textColorSecondary" />
+     </TableRow>
+     </TableLayout>

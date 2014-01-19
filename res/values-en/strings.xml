@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BirthdayGreetings</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_quit">Quit</string>
+    <string name="contextMenu_delete">Delete?</string>
+    <string name="contextMenu_cancel">Cancel</string>
+    <string name="contextMenu_edit">Alter</string>
+    <string name="cdMainImage">2 cakes with greeting on</string>
+    <string name="buttonSettings">Settings</string>
+    <string name="buttonToday">Todays birthday childs</string>
+    <string name="buttonAll">All birthday childs</string>
+    <string name="buttonAdd">Add birthday child</string>
+    <string name="button_Cancel">Cancel</string>
+    <string name="hintAddFirstName">First name</string>
+    <string name="hintAddLastName">Last name</string>
+    <string name="hintAddDate">Birth</string>
+    <string name="hintAddTlf">Tlf</string>
+    <string name="hintAddMessage">Personal greeting</string>
+    <string name="defaultMessage">Congratulation! Hope you will have an excellent day!! Enjoy!</string>
+    <string name="regexFaultStart">Please fill in</string>
+    <string name="regexFaultEnd">correct</string>
+    <string name="insertPersonSuccess">Person have been added!</string>
+    <string name="insertPersonFailed">Error accured. Please try again!</string>
+    <string name="editPersonSuccess">Person has been altered!</string>
+    <string name="editPersonFailed">Error accured. Please try again!</string>
+    <string name="personAgeHeader">Age</string>
+    <string name="personRemainingHeader">Days left</string>
+    <string name="addPersonBirth">Birth:</string>
+    <string name="prefCat1">Warnings</string>
+    <string name="prefCheckboxTitle">Send SMS automatically</string>
+    <string name="prefCheckboxSummary">Sends greetings at chosen time</string>
+    <string name="prefCheckboxKey">pref_birthdays_checkbox</string>
+    <string name="prefEditTextTitle">Standard SMS</string>
+    <string name="prefEditTextSummary">Alter standard SMS</string>
+    <string name="prefEditTextKey">pref_birthdays_edittext</string>
+    <string name="prefTimePickerTitle">Time</string>
+    <string name="prefTimePickerSummary">Time of sending sms</string>
+    <string name="prefTimePickerKey">pref_birthdays_timePicker</string>
+    <string name="listEmpty">Empty list! No persons added!</string>
+    <string name="TW_TitleEdittlf">Tlf:</string>
+    <string name="DPDTitle">Set date</string>
+    <string name="title_activity_today">TodayActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_everyone">EveryoneActivity</string>
+    <string name="title_activity_add_person">AddPersonActivity</string>
+    <string name="title_activity_edit_person">EditPersonActivity</string>
+
+</resources>

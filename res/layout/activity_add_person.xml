@@ -1,0 +1,71 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/addPersonScroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPersonActivity"
+    android:orientation="vertical"
+    android:background="@drawable/birthdaycandles">
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_gravity="center"
+	        android:gravity="center">
+    <EditText
+        android:id="@+id/ET_first_name"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/hintAddFirstName"
+        android:gravity="center" />
+    <EditText
+        android:id="@+id/ET_last_name"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/hintAddLastName"
+        android:gravity="center"  />
+    <EditText
+        android:id="@+id/ET_tlf"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/hintAddTlf"
+        android:gravity="center"  />
+    <EditText
+        android:id="@+id/TW_Birthday"
+        android:layout_height="wrap_content"
+        android:layout_width="150dip"
+        android:hint="@string/addPersonBirth"
+        android:inputType="date"
+        android:onClick="showDatePickerFragment"
+        android:gravity="center" />
+    <EditText
+        android:id="@+id/TW_message"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:scrollHorizontally="false"
+        android:inputType="textMultiLine"
+        android:hint="@string/hintAddMessage"
+        android:gravity="center"  />
+    <LinearLayout 
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+        	android:layout_marginTop="30dip">
+    		<Button 
+        		android:id="@+id/button_CanceladdPerson"
+        		android:layout_width="wrap_content"
+       	 		android:layout_height="wrap_content"
+        		android:text="@string/button_Cancel"
+        		android:onClick="cancelClicked" />
+    		<Button
+        		android:id="@+id/button_addPerson"
+        		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+        		android:text="@android:string/ok"
+        		android:onClick="addPerson" />
+    	</LinearLayout>
+    </LinearLayout>
+	</ScrollView>

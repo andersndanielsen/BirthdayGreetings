@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/prefCat1">
+        <CheckBoxPreference
+            android:id="@+id/checkBox"
+            android:title="@string/prefCheckboxTitle"
+            android:summary="@string/prefCheckboxSummary"
+            android:key="@string/prefCheckboxKey"
+            android:defaultValue="false" />
+        <EditTextPreference
+            android:title="@string/prefEditTextTitle"
+            android:summary="@string/prefEditTextSummary"
+            android:key="@string/prefEditTextKey"
+            android:defaultValue="@string/defaultMessage" />
+        <hioa.mappe2.s180475.TimePreference
+            android:title="@string/prefTimePickerTitle"
+            android:summary="@string/prefTimePickerSummary"
+            android:key="@string/prefTimePickerKey"
+            android:dialogLayout="@layout/time_preference" />
+            
+    </PreferenceCategory>
+    
+</PreferenceScreen>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BirthdayGreetings</string>
+    <string name="menu_settings">Instillinger</string>
+    <string name="menu_quit">Avslutt</string>
+    <string name="contextMenu_delete">Slett?</string>
+    <string name="contextMenu_cancel">Avbryt</string>
+    <string name="contextMenu_edit">Endre</string>
+    <string name="cdMainImage">2 kaker med bursdagshilsen på</string>
+    <string name="buttonSettings">Instillinger</string>
+    <string name="buttonToday">Dagens bursdagsbarn</string>
+    <string name="buttonAll">Alle bursdagsbarn</string>
+    <string name="buttonAdd">Legg til bursdagsbarn</string>
+    <string name="button_Cancel">Avbryt</string>
+    <string name="hintAddFirstName">Fornavn</string>
+    <string name="hintAddLastName">Etternavn</string>
+    <string name="hintAddDate">Bursdagsdato</string>
+    <string name="hintAddTlf">Tlf</string>
+    <string name="hintAddMessage">Personlig gratulasjon</string>
+    <string name="defaultMessage">Hipp hurra! Gratulerer så mye med dagen! Håper du får en fin dag!</string>
+    <string name="regexFaultStart">Vennligst fyll inn</string>
+    <string name="regexFaultEnd">på rett måte</string>
+    <string name="insertPersonSuccess">Person har blitt lagt til!</string>
+    <string name="insertPersonFailed">En feil har oppstått. Prøv igjen!</string>
+    <string name="editPersonSuccess">Person har blitt endret!</string>
+    <string name="editPersonFailed">En feil har oppstått. Prøv igjen!</string>
+    <string name="personAgeHeader">Alder</string>
+    <string name="personRemainingHeader">Til bursdag</string>
+    <string name="addPersonBirth">Fødselsdato:</string>
+    <string name="prefCat1">Varslinger</string>
+    <string name="prefCheckboxTitle">Send SMS automatisk</string>
+    <string name="prefCheckboxSummary">Sender bursdagshilsen til satt tid</string>
+    <string name="prefCheckboxKey">pref_birthdays_checkbox</string>
+    <string name="prefEditTextTitle">Standard SMS</string>
+    <string name="prefEditTextSummary">Rediger standard SMS</string>
+    <string name="prefEditTextKey">pref_birthdays_edittext</string>
+    <string name="prefTimePickerTitle">Klokkeslett</string>
+    <string name="prefTimePickerSummary">Klokkeslett for når SMS skal sendes</string>
+    <string name="prefTimePickerKey">pref_birthdays_timePicker</string>
+    <string name="listEmpty">Listen er tom! Ingen personer er lagt inn.</string>
+    <string name="TW_TitleEdittlf">Tlf:</string>
+    <string name="DPDTitle">Angi dato</string>
+    <string name="title_activity_today">TodayActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_everyone">EveryoneActivity</string>
+    <string name="title_activity_add_person">AddPersonActivity</string>
+    <string name="title_activity_edit_person">EditPersonActivity</string>
+
+</resources>
